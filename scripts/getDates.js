@@ -4,7 +4,7 @@ let year = today.getFullYear();
 let copyright = document.querySelector('#copyright');
 
 if (copyright) {
-    copyright.innerHTML = `&copy; ${year.toString()} |`;
+    copyright.innerHTML = `&copy; ${year.toString()}`;
     
 }
 

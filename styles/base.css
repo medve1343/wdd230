@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&family=Roboto:wght@500&display=swap");
+
+* {
+  background-color: #9ec5ab;
+}
+
+header {
+  display: grid;
+  grid-template-columns: 25% 75%;
+  background-color: #32746d;
+}
+
+img {
+  grid-column-start: 1;
+  width: 50%;
+  height: auto;
+  display: flex;
+  justify-self: center;
+  align-self: center;
+}
+
+header h1 {
+  grid-column-start: 2;
+  display: flex;
+  justify-self: flex-start;
+  align-self: center;
+  background-color: #32746d;
+  color: white;
+}
+
+nav {
+  background-color: #01200f;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px;
+  flex-direction: column;
+  /* display: block; */
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  background-color: #01200f;
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  font-family: "Lora";
+}
+
+nav a:hover {
+  background-color: purple;
+}
+
+.card {
+  /* display: grid; */
+  grid-template-rows: auto auto; /* Two rows */
+  border-radius: 10px;
+  border: 2px black solid;
+  margin-bottom: 10px;
+}
+
+.card h3 {
+  margin: 0;
+  background-color: #32746d;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+  color: white;
+}
+
+.card p {
+  display: flex;
+  justify-content: center;
+}
+
+.card ul {
+  padding: 5;
+}
+
+.card ul li {
+  list-style-type: none;
+}
+
+main h2 {
+  text-decoration: underline;
+  font-size: 95%;
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  background-color: #32746d;
+}
+
+footer * {
+  margin: 5px;
+  background-color: #32746d;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+#last-modified {
+  color: yellow;
+}
+
+main {
+  max-width: 500px;
+  display: grid;
+  grid-template-columns: 1fr;
+}

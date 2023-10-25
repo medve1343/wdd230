@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&family=Roboto:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@300&family=Poppins:wght@300&display=swap");
+
+header {
+  background-color: #9ec5ab;
+  display: grid;
+  grid-template-columns: 1fr;
+  font-family: "Lora";
+  font-size: 30px;
+}
+
+header p {
+  display: flex;
+  justify-content: center;
+}
+
+#color {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  margin: 20px;
+}
+
+#color p {
+  display: flex;
+  justify-content: center;
+  border-width: 4px;
+  padding: 30px;
+  font-size: 18px;
+}
+
+main h2,
+h3 {
+  margin-left: 25px;
+}
+
+.Midnight {
+  background-color: #104f55;
+  color: white;
+  text-align: center;
+}
+
+.Myrtle {
+  background-color: #32746d;
+  color: white;
+  text-align: center;
+}
+
+.Cambridge {
+  background-color: #9ec5ab;
+  color: black;
+  text-align: center;
+}
+
+.Dark {
+  background-color: #01200f;
+  color: white;
+  text-align: center;
+}
+
+.Night {
+  background-color: #011502;
+  color: white;
+  text-align: center;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  background-color: #32746d;
+}
+
+footer * {
+  margin: 5px;
+  background-color: #32746d;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.color {
+  display: grid;
+  grid-template-rows: 3fr;
+  text-align: center;
+}
+
+#Lora,
+#Playpen,
+#Poppins {
+  text-align: center;
+}
+
+#Lora {
+  font-family: Lora;
+}
+
+#Playpen {
+  font-family: Playpen;
+}
+
+#Poppins {
+  font-family: Poppins;
+}

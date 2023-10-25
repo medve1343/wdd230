@@ -101,3 +101,17 @@ footer * {
 #Poppins {
   font-family: Poppins;
 }
+
+#mobile {
+  display: block;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#web {
+  display: block;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}

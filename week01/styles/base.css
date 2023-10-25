@@ -10,9 +10,12 @@ header {
   font-size: 30px;
 }
 
-header p {
+header p,
+h1 {
   display: flex;
   justify-content: center;
+  font-size: 30px;
+  font-weight: normal;
 }
 
 #color {

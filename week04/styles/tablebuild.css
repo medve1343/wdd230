@@ -13,6 +13,8 @@ thead,
 table {
   background-color: black;
   color: white;
+  border: 1px solid lightgrey;
+  border-collapse: collapse;
 }
 
 th,
@@ -30,7 +32,19 @@ tbody tr:nth-child(even) {
   background-color: wheat;
 }
 
+/* table,
+th,
+td {
+  border: 1px solid lightgrey;
+  border-collapse: collapse;
+} */
+
 /* class selectors */
 .gray {
   background-color: #333;
+}
+
+td {
+  border: 1px solid rgb(237, 237, 237);
+  border-collapse: collapse;
 }

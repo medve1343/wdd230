@@ -1,0 +1,36 @@
+/* html selectors */
+caption {
+  caption-side: bottom;
+  color: black;
+  padding: 0.5em;
+}
+
+table {
+  margin: 0 auto;
+}
+
+thead,
+table {
+  background-color: black;
+  color: white;
+}
+
+th,
+td {
+  padding: 1em;
+  text-align: center;
+}
+
+tbody {
+  background-color: white;
+  color: black;
+}
+
+tbody tr:nth-child(even) {
+  background-color: wheat;
+}
+
+/* class selectors */
+.gray {
+  background-color: #333;
+}

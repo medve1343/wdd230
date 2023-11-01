@@ -6,13 +6,12 @@ nav {
 /* small view navigation */
 #menu {
   font-size: 1.5rem;
-  border: 1px solid rgba(0, 0, 0, 0.3);
+  /* border: 1px solid rgba(0, 0, 0, 0.3); */
   padding: 0.25rem 0.75rem;
   background-color: #eee;
   color: #000;
   position: absolute;
-  top: 25px;
-  right: 0px;
+  margin: 0;
 }
 
 #menu::before {
@@ -24,13 +23,11 @@ nav {
 }
 
 .navigation {
-  display: flex;
-
-  flex-direction: column;
+  padding: 0;
   list-style: none;
   background-color: #333;
   color: #fff;
-  padding: 0;
+  /* padding: 0; */
 }
 .navigation li {
   display: none;
@@ -52,16 +49,101 @@ nav {
 /* when the button is clicked - the open class is toggle (added/removed) and accounted for here */
 .open li {
   display: block;
-  width: 100%;
+  /* width: 100%; */
 }
 .open li a {
-  display: block;
+  /* display: block; */
 }
 
-header {
+/* header {
   display: flex;
-}
+} */
 header {
-  display: inline;
-  position: relative;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  /* position: relative; */
+  align-items: center;
+  margin: auto;
+  background-color: #32746d;
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+
+#budapest_img {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+#facebook {
+  width: 15%;
+  height: auto;
+}
+
+#linkedin {
+  width: 15%;
+  height: auto;
+}
+
+#instagram {
+  width: 15%;
+  height: auto;
+}
+
+.card {
+  /* display: grid; */
+  grid-template-rows: auto auto; /* Two rows */
+  border-radius: 10px;
+  border: 2px black solid;
+  margin-bottom: 10px;
+}
+
+.card h3 {
+  margin: 0;
+  background-color: #32746d;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+  color: white;
+  border-radius: 5px;
+}
+
+.card p {
+  display: flex;
+  justify-content: center;
+}
+
+.card ul {
+  padding: 5;
+}
+
+.card ul li {
+  list-style-type: none;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  background-color: #32746d;
+}
+
+footer * {
+  margin: 5px;
+  background-color: #32746d;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+#last-modified {
+  color: yellow;
+}
+
+main {
+  max-width: 500px;
+  display: grid;
+  grid-template-columns: 1fr;
 }

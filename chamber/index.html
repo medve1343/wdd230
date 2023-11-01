@@ -28,28 +28,52 @@
   </head>
   <body>
     <header>
-      <img />
       <p class="cityName">Budapest</p>
-
-      <nav>
-        <button id="menu"></button>
-        <ul class="navigation">
-          <li><a href="#" title="Home">Home</a></li>
-          <li><a href="#" title="About Us" class="active">About Us</a></li>
-          <li><a href="#" title="Service">Services</a></li>
-          <li><a href="#" title="History">Products</a></li>
-          <li><a href="#" title="Contact">Contact Us</a></li>
-        </ul>
-      </nav>
+      <img id="facebook" src="images/facebook.webp" alt="facebook" />
+      <img id="linkedin" src="images/linkedin.webp" alt="linkedin" />
+      <img id="instagram" src="images/instagram.webp" alt="instagram" />
     </header>
+    <nav>
+      <button id="menu"></button>
+      <ul class="navigation">
+        <li><a href="#" title="Home">Home</a></li>
+        <li><a href="#" title="About Us" class="active">About Us</a></li>
+        <li><a href="#" title="Service">Services</a></li>
+        <li><a href="#" title="History">Products</a></li>
+        <li><a href="#" title="Contact">Contact Us</a></li>
+      </ul>
+    </nav>
+
     <main>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae ratione
-        nam veniam accusamus, magni architecto placeat a cum doloribus. Odio
-        rerum velit debitis officiis molestias temporibus a iste vel quasi.
-      </p>
+      <img id="budapest_img" src="images/Budapest.webp" alt="Budapest" />
+
+      <section class="card">
+        <h3>Current Event(s)</h3>
+        <ul></ul>
+      </section>
+
+      <section class="card">
+        <h3>Informtaion</h3>
+        <p>Budapest, Hungary</p>
+        <p>50 &degC - Sunshine</p>
+        <p>Page Visits: 15</p>
+      </section>
+
+      <section class="card">
+        <h3>Spotlights</h3>
+        <ul></ul>
+      </section>
     </main>
-    <footer></footer>
+    <footer>
+      <p>
+        <span id="copyright"></span>
+      </p>
+
+      <p>Gergo Medveczky Budapest</p>
+      <p>Hungary</p>
+      <p id="last-modified"></p>
+    </footer>
+    <script src="scripts/getDates.js"></script>
     <script src="scripts/hamburger.js"></script>
   </body>
 </html>

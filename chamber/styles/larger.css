@@ -4,7 +4,32 @@
     grid-template-columns: 1fr 1fr;
     gap: 5px;
   }
-  main h2 {
+  main h2,
+  #budapest_img {
     grid-column: 1/3;
+  }
+  #join {
+    height: 50px;
+    width: 70px;
+    font-size: larger;
+  }
+
+  .middle {
+    grid-column: 1/3;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+  #menu {
+    display: none;
+  }
+
+  .navigation li {
+    display: block;
+  }
+  .navigation {
+    display: flex;
+    flex-direction: row;
+    padding-right: 200px;
   }
 }

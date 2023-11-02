@@ -1,0 +1,31 @@
+#rangevalues {
+  display: flex;
+}
+
+form * {
+  display: block;
+}
+
+main {
+  margin-top: 70px;
+}
+
+#join {
+  display: none;
+}
+
+form input:required {
+  border-left: red solid 6px;
+}
+
+form input:required:valid {
+  border-left: green solid 6px;
+}
+
+form input:focus {
+  background-color: yellow;
+}
+
+.submitBtn {
+  margin-bottom: 15px;
+}

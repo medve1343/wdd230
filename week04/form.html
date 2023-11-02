@@ -3,26 +3,41 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/chamber/styles/normalize.css" />
+    <link rel="stylesheet" href="/chamber/styles/base.css" />
+    <link rel="stylesheet" href="/chamber/styles/larger.css" />
+    <link rel="stylesheet" href="styles/form.css" />
     <title>Document</title>
   </head>
   <body>
     <header>
-      <img src="images/me.webp" alt="me on a motorcycle" />
-      <h1>Gergo Medveczky</h1>
+      <p id="cityName">Budapest</p>
+      <img id="facebook" src="/chamber/images/facebook.webp" alt="facebook" />
+      <img id="linkedin" src="/chamber/images/linkedin.webp" alt="linkedin" />
+      <img
+        id="instagram"
+        src="/chamber/images/instagram.webp"
+        alt="instagram"
+      />
     </header>
     <nav>
-      <a href="#">Home</a>
-      <a href="#">Chamber</a>
-      <a href="./week01/chamber-site-plan.html">Site Plan</a>
-      <a href="#">Form</a>
+      <button id="menu"></button>
+      <button id="join" type="button">Join</button>
+      <ul class="navigation">
+        <li><a href="#" title="Home">Home</a></li>
+        <li><a href="#" title="About Us" class="active">About Us</a></li>
+        <li><a href="#" title="Service">Services</a></li>
+        <li><a href="#" title="History">Products</a></li>
+        <li><a href="#" title="Contact">Contact Us</a></li>
+      </ul>
     </nav>
     <main>
-      <form>
+      <form method="get" action="/week04/confirmation.html">
         <label for="username"
-          >Username<input type="text" id="username" name="username" required
+          >Username*<input type="text" id="username" name="username" required
         /></label>
         <label for="password"
-          >Password<input
+          >Password*<input
             type="text"
             id="password"
             name="password"
@@ -30,16 +45,17 @@
             required
         /></label>
 
-        <label for="passwordConfirmation">Password Confirmation</label>
-        <input
-          type="text"
-          id="passwordConfirmation"
-          name="passwordConfirmation"
-          pattern="^.*(?=.*\bpassword\b).*$"
-          required
-        />
+        <label for="passwordConfirmation"
+          >Password Confirmation*
+          <input
+            type="text"
+            id="passwordConfirmation"
+            name="passwordConfirmation"
+            pattern="^.*(?=.*\password\b).*$"
+            required
+        /></label>
 
-        <label for="email">Email</label>
+        <label for="email">Email*</label>
         <input
           type="email"
           id="email"
@@ -48,26 +64,25 @@
           title="Please enter a valid email address"
           required
         />
-        <label for="range">Page Rating</label>
+        <label for="rate">Page Rating*</label>
         <input
-          type="rate"
+          type="text"
           id="rate"
           name="rate"
           pattern="[a-zA-Z0-9._%+-]+@byui\.edu$"
           title="Please enter a valid email address"
           required
         />
-        <label for="r">INPUT: range, min, max, datalist, required</label>
-        <div id="rangevalue">0</div>
+        <label for="r">INPUT: range, min, max, datalist, required*</label>
+        <div id="rangevalue">5</div>
         <input
           type="range"
-          id="range"
-          name="range"
+          id="r"
+          name="r"
           min="0"
           max="10"
           value="5"
           step="1"
-          onchange="showValue(this.value)"
           list="rangevalues"
         />
         <datalist id="rangevalues">
@@ -83,7 +98,7 @@
           <option value="9">9</option>
           <option value="10">10</option>
         </datalist>
-        <span id="ratingDisplay">5</span>
+        <input type="submit" value="Submit" class="submitBtn" />
       </form>
     </main>
     <footer>
@@ -95,6 +110,8 @@
       <p>Hungary</p>
       <p id="last-modified"></p>
     </footer>
-    <script src="/w04/scripts/form.js"></script>
+    <script src="scripts/form.js"></script>
+    <script src="/chamber/scripts/hamburger.js"></script>
+    <script src="/chamber/scripts/getDates.js"></script>
   </body>
 </html>

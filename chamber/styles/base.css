@@ -180,3 +180,7 @@ footer .symbol {
 footer .contact {
   display: block;
 }
+
+footer p {
+  align-self: center;
+}

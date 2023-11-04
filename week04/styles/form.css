@@ -29,3 +29,18 @@ form input:focus {
 .submitBtn {
   margin-bottom: 15px;
 }
+
+footer img {
+  width: 15%;
+  height: auto;
+  margin: 0 auto;
+}
+
+footer .symbol {
+  display: block;
+  border-bottom: 1px solid #000;
+}
+
+footer .contact {
+  display: block;
+}

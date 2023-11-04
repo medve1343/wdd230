@@ -32,4 +32,29 @@
     flex-direction: row;
     padding-right: 200px;
   }
+  footer .symbol {
+    border-bottom: 1px solid #000;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 1;
+  }
+
+  footer .symbol p {
+    grid-column: 2;
+  }
+
+  footer .contact {
+    display: flex;
+    flex-direction: row;
+  }
+
+  #copyright {
+    margin: 0;
+  }
+
+  #hun_symbol {
+    align-items: center;
+    grid-row: 1/4;
+    padding: 20px;
+  }
 }

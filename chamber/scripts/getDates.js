@@ -15,3 +15,6 @@ let lastModifiedElement = document.querySelector('#last-modified');
 if (lastModifiedElement) {
     lastModifiedElement.textContent = `Last Modified: ${lastModified}`;
 }
+
+let timestamp = document.querySelector('#timestamp');
+timestamp.value = today;

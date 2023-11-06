@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Gergo Medveczky" />
+    <meta name="description" content="WDD230 - Chamber Home Page." />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta property="og:title" content="Budapest Chamber of Commerce" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:image"
+      content="https://raw.githubusercontent.com/medve1343/wdd230/main/images/Budapest.jpg"
+    />
+    <meta property="og:url" content="https://medve1343.github.io/wdd230/" />
+
+    <link rel="icon" href="images/favicon.ico" />
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    /> -->
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/base.css" />
+    <link rel="stylesheet" href="styles/larger.css" />
+    <title>"Gergo Medveczky - WDD 230 - Web Frontend Development"</title>
+  </head>
+  <body>
+    <header>
+      <h1 id="cityName">Budapest Chamber of Commerce</h1>
+      <img id="facebook" src="images/facebook.webp" alt="facebook" />
+      <img id="linkedin" src="images/linkedin.webp" alt="linkedin" />
+      <img id="instagram" src="images/instagram.webp" alt="instagram" />
+    </header>
+    <nav>
+      <button id="menu"></button>
+      <ul class="navigation">
+        <li><a href="#" title="Home">Home</a></li>
+        <li><a href="#" title="About Us" class="active">About Us</a></li>
+        <li><a href="#" title="Service">Services</a></li>
+        <li><a href="#" title="History">Products</a></li>
+        <li><a href="#" title="Contact">Contact Us</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <form method="get" action="/chamber/thankyou.html">
+        <fieldset>
+          <legend>Applicant's Information</legend>
+          <label for="firstname"
+            >First Name*<input
+              type="text"
+              id="firstname"
+              name="firstname"
+              required
+          /></label>
+          <label for="lastname"
+            >Last Name*<input
+              type="text"
+              id="lastname"
+              name="lastname"
+              required
+          /></label>
+          <label for="title"
+            >Title or position*<input
+              type="text"
+              id="title"
+              name="title"
+              pattern="[A-Za-z\- ]{7, }"
+          /></label>
+          <label for="email"
+            >Email*<input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="emailaddress@byui.edu"
+              pattern="[a-zA-Z0-9._%+-]+@byui\.edu$"
+              title="Please enter a valid email address"
+              required
+          /></label>
+
+          <label for="mobilenumber"
+            >Mobile Phone Number
+            <input type="tel" id="mobilenumber" name="mobilenumber" required />
+          </label>
+          <label for="bussinessname"
+            >Business/Organization's name
+            <input
+              type="text"
+              id="bussinessname"
+              name="bussinessname"
+              required
+            />
+          </label>
+        </fieldset>
+
+        <fieldset class="MembershipLevel">
+          <legend>Membership Level</legend>
+          <div>
+            <label class="sbs"
+              ><input type="radio" name="audience" value="np" />NP
+              Membership</label
+            >
+            <label class="sbs"
+              ><input type="radio" name="audience" value="bronze" />Bronze
+              Membership</label
+            >
+            <label class="sbs"
+              ><input type="radio" name="audience" value="silver" />Silver
+              Membership</label
+            >
+            <label class="sbs"
+              ><input type="radio" name="audience" value="gold" />Gold
+              Membership</label
+            >
+          </div>
+
+          <div>
+            <h2>NP Membership</h2>
+            <ul>
+              <li>No fee.</li>
+            </ul>
+            <h2>Bronze Membership</h2>
+            <ul>
+              <li>15% discount on events</li>
+              <li>10% discount on advertising</li>
+              <li>Fee of 50$/month</li>
+            </ul>
+
+            <h2>Silver Membership</h2>
+            <ul>
+              <li>25% discount on events</li>
+              <li>15% discount on advertising</li>
+              <li>Free participation in the traid fair</li>
+              <li>Fee of 100$/month</li>
+            </ul>
+
+            <h2>Gold Membership</h2>
+            <ul>
+              <li>50% discount on events</li>
+              <li>50% discount on advertising</li>
+              <li>Free participation in the traid fair</li>
+              <li>5 free featured ads per year</li>
+              <li>1 free training per quarter</li>
+              <li>Fee of 250$/month</li>
+            </ul>
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend>Business's description</legend>
+          <label for="bussinessdescription"
+            >Business's description<textarea
+              name="bussinessdescription"
+              id="bussinessdescription"
+            ></textarea>
+          </label>
+        </fieldset>
+
+        <input type="hidden" name="timestamp" id="timestamp" />
+        <label class="date">
+          <input
+            id="submit"
+            type="submit"
+            value="Submit Application"
+            class="submitBtn"
+        /></label>
+      </form>
+    </main>
+    <footer>
+      <section class="symbol">
+        <h3>Thank you :)</h3>
+        <img
+          id="hun_symbol"
+          src="images/hun_symbol.webp"
+          alt="hungarian symbol"
+        />
+        <p>
+          <span id="copyright"></span>
+        </p>
+
+        <p>Gergo Medveczky</p>
+        <p>WDD-230</p>
+      </section>
+      <section class="contact">
+        <h3>Contact Information</h3>
+        <p>Phone</p>
+        <p>+1(208)405-3533</p>
+        <p id="last-modified"></p>
+      </section>
+    </footer>
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/hamburger.js"></script>
+  </body>
+</html>

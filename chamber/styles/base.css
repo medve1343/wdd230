@@ -184,3 +184,37 @@ footer .contact {
 footer p {
   align-self: center;
 }
+
+form input:required {
+  border-left: red solid 6px;
+}
+
+form input:required:valid {
+  border-left: green solid 6px;
+}
+
+form input:focus {
+  background-color: yellow;
+}
+
+form * {
+  display: block;
+}
+
+form label,
+fieldset,
+#submit {
+  margin: 10px;
+}
+
+.MembershipLevel :nth-child(3) {
+  display: none;
+}
+
+footer h3 {
+  align-self: center;
+}
+
+form {
+  margin-top: 30px;
+}

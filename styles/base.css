@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&family=Roboto:wght@500&display=swap");
-
 * {
   background-color: #9ec5ab;
 }
@@ -76,7 +75,7 @@ nav a:hover {
 }
 
 .card ul {
-  padding: 5;
+  padding: 5px;
 }
 
 .card ul li {

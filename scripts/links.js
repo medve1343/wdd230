@@ -10,7 +10,7 @@ async function getLinks() {
 
   function displayLinks(data) {
     data.forEach(week => {
-        console.log(week);        
+        console.log(week);
     });
   }
   

@@ -37,20 +37,20 @@
         {
             "week": "Week 3",
             "links": [{
-                "url": "",
-                "title": ""
+                "url": "/week03/images/landscape.webp",
+                "title": "Webp"
+            },
+            {
+                "url": "/week03/lazyload.html",
+                "title": "LazyLoad"
             },
             {
                 "url": "",
-                "title": ""
+                "title": "Responsive Images"
             },
             {
                 "url": "",
-                "title": ""
-            },
-            {
-                "url": "",
-                "title": ""
+                "title": "Web Storage API -localstorage"
             }
             ]
             

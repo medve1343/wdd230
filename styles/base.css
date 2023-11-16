@@ -230,6 +230,8 @@ nav {
 
 .grid section {
 	text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .grid img {
@@ -251,9 +253,8 @@ nav {
 }
 
 .list section {
-	/* display: grid; */
-  display: flex;
-	grid-template-columns: 2fr 1fr 1fr;
+	display: grid;
+  grid-template-columns: 12% 12% 12% 12% 12% 12% 28%;
 	margin: 0;
 	padding: 0.25rem;
   
@@ -262,6 +263,7 @@ nav {
 .list section > * {
 	margin: 0 1rem;
   background-color: transparent;
+  
   /* background-color: blue; */
   /* margin: 1rem; */
 }

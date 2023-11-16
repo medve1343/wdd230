@@ -1,6 +1,6 @@
 [
     {
-        "name":"Lonely Planet",
+        "name":"",
         "address": {
             "street1":"2100 S Vista Avenue",
             "street2": "",
@@ -14,9 +14,31 @@
         "membershipLevel": "Gold"
     },
     {
-
+        "name":"",
+        "address": {
+            "street1":"2100 S Vista Avenue",
+            "street2": "",
+            "city": "Boise",
+            "state": "Idaho",
+            "zip": "83705"
+        },
+        "phone": "208-342-9386",
+        "url": "https://www.lonelyplanet.com/hungary/budapest",
+        "imageUrl": "",
+        "membershipLevel": "Gold"
     },
     {
-
+        "name":"",
+        "address": {
+            "street1":"2100 S Vista Avenue",
+            "street2": "",
+            "city": "Boise",
+            "state": "Idaho",
+            "zip": "83705"
+        },
+        "phone": "208-342-9386",
+        "url": "https://www.lonelyplanet.com/hungary/budapest",
+        "imageUrl": "",
+        "membershipLevel": "Gold"
     }
 ]

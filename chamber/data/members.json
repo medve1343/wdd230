@@ -1,6 +1,6 @@
 [
     {
-        "name":"Audi-Hun",
+        "name":"Audi",
         "address": {
             "street1":"Mozaik utca 1-3",
             "city": "Budapest",
@@ -13,7 +13,7 @@
         "membershipLevel": "Bronze"
     },
     {
-        "name":"Mercedes-Hun",
+        "name":"Mercedes",
         "address": {
             "street1":"Karpati utca 7",
             "city": "Budapest",
@@ -26,7 +26,7 @@
         "membershipLevel": "Silver"
     },
     {
-        "name":"Porsche-Hun",
+        "name":"Porsche",
         "address": {
             "street1":"Szerémi út 63",
             "city": "Budapest",
@@ -39,7 +39,7 @@
         "membershipLevel": "Bronze"
     },
     {
-        "name":"BMW-Hun",
+        "name":"BMW",
         "address": {
             "street1":"Szentendrei ut 63",
             "city": "Budapest",
@@ -52,7 +52,7 @@
         "membershipLevel": "Gold"
     },
     {
-        "name":"Skoda-Hun",
+        "name":"Skoda",
         "address": {
             "street1":"Torok Floris utca 24",
             "city": "Budapest",
@@ -65,7 +65,7 @@
         "membershipLevel": "Gold"
     },
     {
-        "name":"Peugeot-Hun",
+        "name":"Peugeot",
         "address": {
             "street1":"Királyhágó utca 8",
             "city": "Budapest",
@@ -78,7 +78,7 @@
         "membershipLevel": "Gold"
     },
     {
-        "name":"Seat-Hun",
+        "name":"Seat",
         "address": {
             "street1":"Zay utca 24",
             "city": "Budapest",

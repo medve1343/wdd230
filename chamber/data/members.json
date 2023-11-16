@@ -1,6 +1,6 @@
 [
     {
-        "name":"IDWEB",
+        "name":"Lonely Planet",
         "address": {
             "street1":"2100 S Vista Avenue",
             "street2": "",
@@ -9,7 +9,7 @@
             "zip": "83705"
         },
         "phone": "208-342-9386",
-        "url": "https://idahowebsites.com",
+        "url": "https://www.lonelyplanet.com/hungary/budapest",
         "imageUrl": "",
         "membershipLevel": "Gold"
     },
@@ -17,6 +17,6 @@
 
     },
     {
-        
+
     }
 ]

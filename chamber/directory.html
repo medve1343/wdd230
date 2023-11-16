@@ -1,9 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
+    <meta charset="utf-8">
+    <meta name="author" content="Gergo Medveczky" />
+    <meta
+      name="description"
+      content="WDD230 - Web Frontend Development Gergo Medveczky W01 Team Activity: Course Home Page Development."
+    />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+
+    <meta property="og:title" content="Budapest Chamber of Commerce" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:image"
+      content="https://raw.githubusercontent.com/medve1343/wdd230/main/images/Budapest.jpg"
+    />
+    <meta property="og:url" content="https://medve1343.github.io/wdd230/" />
+
+    <link rel="icon" href="images/favicon.ico" />
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    /> -->
+    <link rel="stylesheet" href="../styles/normalize.css" />
+    <link rel="stylesheet" href="../styles/base.css" />
+    <link rel="stylesheet" href="../styles/larger.css" />
+    <title>"Gergo Medveczky - WDD 230 - Web Frontend Development"</title>
   </head>
-  <body></body>
+
+  <body>
+    <header>
+      <img src="../images/me.webp" alt="me on a motorcycle" />
+      <h1>Gergo Medveczky</h1>
+    </header>
+
+    <nav>
+      <button id="menu"></button>
+
+      <ul class="navigation">
+        <li><a href="#" title="Home">Home</a></li>
+        <li>
+          <a href="index.html" title="Chamber" class="active"
+            >Chamber</a
+          >
+        </li>
+        <li>
+          <a href="../week01/chamber-site-plan.html" title="Site Plan"
+            >Site Plan</a
+          >
+        </li>
+        <li><a href="#" title="History">Form</a></li>
+        <li><a href="#" title="Contact">Contact Us</a></li>
+      </ul>
+    </nav>
+
+    <!-- <nav>
+      <a href="#">Home</a>
+      <a href="./chamber/index.html">Chamber</a>
+      <a href="./week01/chamber-site-plan.html">Site Plan</a>
+      <a href="#">Form</a>
+    </nav> -->
+    <main id="directory">
+      <div class="menu">
+        <button id="grid">⏹️Grid</button>
+        <button id="list">📄List</button>
+      </div>
+      <hr>
+	<article class="grid">
+
+
+  </article>
+      
+
+    </main>
+
+    <footer>
+      <p>
+        <span id="copyright"></span>
+      </p>
+
+      <p>Gergo Medveczky Budapest</p>
+      <p>Hungary</p>
+      <p id="last-modified"></p>
+    </footer>
+    <script src="../scripts/getDates.js"></script>
+    <script src="scripts/getCompanies.js"></script>
+    <script src="scripts/hamburger.js"></script>
+  </body>
 </html>

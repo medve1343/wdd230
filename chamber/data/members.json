@@ -1,11 +1,63 @@
 [
     {
+        "name":"Lonely Planet",
+        "address": {
+            "street1":"Sziv utca 57",
+            "city": "Budapest",
+            "country": "Hungary",
+            "zip": "1181"
+        },
+        "phone": "+36202222333",
+        "url": "https://www.lonelyplanet.com/hungary/budapest",
+        "imageUrl": "",
+        "membershipLevel": "Gold"
+    },
+    {
+        "name":"Mercedes-Hungary",
+        "address": {
+            "street1":"Karpati utca 7",
+            "city": "Budapest",
+            "country": "Hungary",
+            "zip": "1065"
+        },
+        "phone": "+36-800-80472",
+        "url": "https://www.mercedes-benz.hu/?group=all&subgroup=all.saloon&view=BODYTYPE",
+        "imageUrl": "",
+        "membershipLevel": "Silver"
+    },
+    {
+        "name":"Porsche Centrum Budapest",
+        "address": {
+            "street1":"Szerémi út 63",
+            "city": "Budapest",
+            "country": "Hungary",
+            "zip": "1117"
+        },
+        "phone": "3823-000",
+        "url": "https://www.porschehungaria.hu/cegcsoport/porsche-inter-auto-hungaria/porsche-centrum-budapest",
+        "imageUrl": "",
+        "membershipLevel": "Bronze"
+    },
+    {
+        "name":"Yamaha-Hungary",
+        "address": {
+            "street1":"Hajó utca 3",
+            "city": "Budapest",
+            "country": "Hungary",
+            "zip": "1221"
+        },
+        "phone": "06 (22) 600 100",
+        "url": "https://www.ivanics.hu/yamaha/yamaha-szalon",
+        "imageUrl": "",
+        "membershipLevel": "Gold"
+    },
+    {
         "name":"",
         "address": {
             "street1":"2100 S Vista Avenue",
             "street2": "",
-            "city": "Boise",
-            "state": "Idaho",
+            "city": "Budapest",
+            "country": "Hungary",
             "zip": "83705"
         },
         "phone": "208-342-9386",
@@ -18,8 +70,8 @@
         "address": {
             "street1":"2100 S Vista Avenue",
             "street2": "",
-            "city": "Boise",
-            "state": "Idaho",
+            "city": "Budapest",
+            "country": "Hungary",
             "zip": "83705"
         },
         "phone": "208-342-9386",
@@ -32,8 +84,8 @@
         "address": {
             "street1":"2100 S Vista Avenue",
             "street2": "",
-            "city": "Boise",
-            "state": "Idaho",
+            "city": "Budapest",
+            "country": "Hungary",
             "zip": "83705"
         },
         "phone": "208-342-9386",

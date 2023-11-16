@@ -34,12 +34,33 @@
       <img src="images/me.webp" alt="me on a motorcycle" />
       <h1>Gergo Medveczky</h1>
     </header>
+
     <nav>
+      <button id="menu"></button>
+
+      <ul class="navigation">
+        <li><a href="#" title="Home">Home</a></li>
+        <li>
+          <a href="./chamber/index.html" title="Chamber" class="active"
+            >Chamber</a
+          >
+        </li>
+        <li>
+          <a href="./week01/chamber-site-plan.html" title="Site Plan"
+            >Site Plan</a
+          >
+        </li>
+        <li><a href="#" title="History">Form</a></li>
+        <li><a href="#" title="Contact">Contact Us</a></li>
+      </ul>
+    </nav>
+
+    <!-- <nav>
       <a href="#">Home</a>
       <a href="./chamber/index.html">Chamber</a>
       <a href="./week01/chamber-site-plan.html">Site Plan</a>
       <a href="#">Form</a>
-    </nav>
+    </nav> -->
     <main>
       <h2>Wdd 230: Web Frontend Development</h2>
       <section class="card">
@@ -83,7 +104,16 @@
       <section class="card">
         <h3>Informtaion</h3>
         <p>Budapest, Hungary</p>
-        <p>50 &deg;C - Sunshine</p>
+        <p>
+          <figure>
+            <img id="weather-icon" src="" alt="" />
+            <span id="current-temp"></span>
+
+            <figcaption></figcaption>
+          </figure>
+
+          <!-- 50 &deg;C - Sunshine -->
+        </p>
         <p>Page Visits: 15</p>
       </section>
     </main>
@@ -99,5 +129,7 @@
     </footer>
     <script src="scripts/getDates.js"></script>
     <script src="scripts/links.js"></script>
+    <script src="scripts/weather.js"></script>
+    <script src="scripts/hamburger.js"></script>
   </body>
 </html>

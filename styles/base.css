@@ -2,7 +2,6 @@
 * {
   background-color: #9ec5ab;
 }
-
 header {
   display: grid;
   grid-template-columns: 25% 75%;
@@ -27,13 +26,13 @@ header h1 {
   color: white;
 }
 
-nav {
+/* nav {
   background-color: #01200f;
   display: flex;
   justify-content: space-evenly;
   padding: 10px;
   flex-direction: column;
-  /* display: block; */
+  
 }
 
 nav a {
@@ -42,15 +41,15 @@ nav a {
   background-color: #01200f;
   display: flex;
   justify-content: center;
-}
+} */
 
 body {
   font-family: "Lora";
 }
 
-nav a:hover {
+/* nav a:hover {
   background-color: purple;
-}
+} */
 
 .card {
   /* display: grid; */
@@ -111,4 +110,81 @@ main {
   max-width: 500px;
   display: grid;
   grid-template-columns: 1fr;
+}
+
+#weather-icon {
+  width: 10%;
+  height: auto;
+}
+
+figure {
+  display: flex;
+  justify-content: center;
+
+  align-items: center;
+  margin: 0;
+  text-align: center;
+}
+
+figcaption {
+  margin-left: 5px;
+}
+
+nav {
+  flex: 1;
+  margin: 1rem auto;
+  font-family: Poppins;
+  background-color: black;
+}
+
+#menu {
+  font-size: 1.5rem;
+  /* border: 1px solid rgba(0, 0, 0, 0.3); */
+  padding: 0.25rem 0.75rem;
+  background-color: #eee;
+  color: #000;
+  position: absolute;
+  margin: 0;
+}
+
+#menu::before {
+  content: "☰";
+}
+
+#menu.open::before {
+  content: "❎";
+}
+
+.navigation {
+  padding: 0;
+  list-style: none;
+  /* background-color: #333; */
+  background-color: black !important;
+  display: flex;
+  justify-content: space-around;
+  color: #fff;
+  flex-direction: column;
+  /* padding: 0; */
+}
+.navigation li {
+  display: none;
+  background-color: black !important;
+}
+.navigation li a {
+  display: block;
+
+  padding: 1rem;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+}
+.navigation li a:hover {
+  background-color: #bbb;
+  color: #333;
+  font-weight: 700;
+}
+
+.open li {
+  display: block;
+  /* width: 100%; */
 }

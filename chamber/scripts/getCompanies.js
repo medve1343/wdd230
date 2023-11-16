@@ -10,7 +10,7 @@ async function getBusinesses() {
 function displayBusinesses(data) {
   data.forEach((element) => {
     console.log(element);
-    let name = document.createElement("h2");
+    let name = document.createElement("h3");
     let street = document.createElement("p"); // fill in the blank
     let city = document.createElement("p");
     let country = document.createElement("p");
@@ -29,10 +29,12 @@ function displayBusinesses(data) {
     city.innerHTML = element.address.city;
     country.innerHTML = element.address.country;
     zip.innerHTML = element.address.zip;
-    membership.innerHTML = element.membership;
+    membership.innerHTML = element.membershipLevel;
     url.setAttribute("href", element.url);
+    url.innerHTML = element.name + " website link";
+    
 
-    image.setAttribute('width', '340');
+    image.setAttribute('width', '200');
     image.setAttribute('height', '440');
 
     // portrait.setAttribute('alt', `Portrait of ${prophet.name} ${prophet.lastname}`); // fill in the blank
@@ -51,6 +53,7 @@ function displayBusinesses(data) {
     company.appendChild(membership);
     company.appendChild(url);
 
+    company.setAttribute("class", "companyCard");
     let companies = document.querySelector(".grid");
     companies.appendChild(company);
 

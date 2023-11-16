@@ -1,19 +1,19 @@
 [
     {
-        "name":"Lonely Planet",
+        "name":"Audi-Hun",
         "address": {
-            "street1":"Sziv utca 57",
+            "street1":"Mozaik utca 1-3",
             "city": "Budapest",
             "country": "Hungary",
             "zip": "1181"
         },
-        "phone": "+36202222333",
-        "url": "https://www.lonelyplanet.com/hungary/budapest",
-        "imageUrl": "",
-        "membershipLevel": "Gold"
+        "phone": "+3613673425",
+        "url": "https://wwww.audi.hu/",
+        "imageUrl": "https://cf-cdn-v5.audi.at/media/Theme_BannersHome_Banner_Image_Component/8014-banner-594277-image/dh-1539-918e09/06441dcd/1675149903/1920x1920-home-q8e-r-2022-4392-withoutcast-oe.jpg",
+        "membershipLevel": "Bronze"
     },
     {
-        "name":"Mercedes-Hungary",
+        "name":"Mercedes-Hun",
         "address": {
             "street1":"Karpati utca 7",
             "city": "Budapest",
@@ -26,7 +26,7 @@
         "membershipLevel": "Silver"
     },
     {
-        "name":"Porsche Centrum Budapest",
+        "name":"Porsche-Hun",
         "address": {
             "street1":"Szerémi út 63",
             "city": "Budapest",
@@ -39,58 +39,55 @@
         "membershipLevel": "Bronze"
     },
     {
-        "name":"Yamaha-Hungary",
+        "name":"BMW-Hun",
         "address": {
-            "street1":"Hajó utca 3",
+            "street1":"Szentendrei ut 63",
             "city": "Budapest",
             "country": "Hungary",
-            "zip": "1221"
+            "zip": "1033"
         },
-        "phone": "06 (22) 600 100",
-        "url": "https://www.ivanics.hu/yamaha/yamaha-szalon",
-        "imageUrl": "",
+        "phone": "0612266363",
+        "url": "https://www.bing.com/search?q=bmw+budapest&cvid=db4fecdc17b84b25bcd4a4dd0b014cff&gs_lcrp=EgZjaHJvbWUqBggAEAAYQDIGCAAQABhAMgYIARAAGEAyBggCEAAYQDIGCAMQABhAMgYIBBBFGEDSAQgyODc5ajBqOagCALACAA&FORM=ANAB01&PC=WSEDSE",
+        "imageUrl": "https://www.bmw-budapestmotors.hu/images/slider/global/1698659037_39bc316e9a390195ca16.jpg",
         "membershipLevel": "Gold"
     },
     {
-        "name":"",
+        "name":"Skoda-Hun",
         "address": {
-            "street1":"2100 S Vista Avenue",
-            "street2": "",
+            "street1":"Torok Floris utca 24",
             "city": "Budapest",
             "country": "Hungary",
-            "zip": "83705"
+            "zip": "1203"
         },
         "phone": "208-342-9386",
-        "url": "https://www.lonelyplanet.com/hungary/budapest",
-        "imageUrl": "",
+        "url": "https://www.skoda.hu/",
+        "imageUrl": "https://cf-cdn-v5.skoda.at/media/Theme_Stage_StageImage_Image_Mid_Component.Theme_Stage_StageImage_Image_Component/1010-stage-189464-image-mid/dh-1626-d77edc/5381c43b/1698238614/szines-range.jpg",
         "membershipLevel": "Gold"
     },
     {
-        "name":"",
+        "name":"Peugeot-Hun",
         "address": {
-            "street1":"2100 S Vista Avenue",
-            "street2": "",
+            "street1":"Királyhágó utca 8",
             "city": "Budapest",
             "country": "Hungary",
-            "zip": "83705"
+            "zip": "1182"
         },
         "phone": "208-342-9386",
-        "url": "https://www.lonelyplanet.com/hungary/budapest",
-        "imageUrl": "",
+        "url": "https://www.peugeot.hu/",
+        "imageUrl": "https://www.peugeot.hu/content/dam/peugeot/hungary/Akciok/2023/Keszletakcio/peugeot508ujbortio.jpg?imwidth=1182",
         "membershipLevel": "Gold"
     },
     {
-        "name":"",
+        "name":"Seat-Hun",
         "address": {
-            "street1":"2100 S Vista Avenue",
-            "street2": "",
+            "street1":"Zay utca 24",
             "city": "Budapest",
             "country": "Hungary",
-            "zip": "83705"
+            "zip": "1037"
         },
-        "phone": "208-342-9386",
-        "url": "https://www.lonelyplanet.com/hungary/budapest",
-        "imageUrl": "",
+        "phone": "+13612914956",
+        "url": "https://dunaauto.hu/seat",
+        "imageUrl": "https://dunaauto.hu/uploads/hero_slide/slide/seat-slider-main-640eda887b45c-255.jpg",
         "membershipLevel": "Gold"
     }
 ]

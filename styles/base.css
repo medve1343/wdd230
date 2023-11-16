@@ -199,6 +199,7 @@ nav {
 	max-width: 700px;
 	background-color: #fff;
 	font-family: Roboto, Helvetica, sans-serif;
+  display: block;
 }
 
 .menu {
@@ -250,14 +251,19 @@ nav {
 }
 
 .list section {
-	display: grid;
+	/* display: grid; */
+  display: flex;
 	grid-template-columns: 2fr 1fr 1fr;
 	margin: 0;
 	padding: 0.25rem;
+  
 }
 
 .list section > * {
 	margin: 0 1rem;
+  background-color: transparent;
+  /* background-color: blue; */
+  /* margin: 1rem; */
 }
 
 .list section img {

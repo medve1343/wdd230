@@ -301,3 +301,53 @@ img {
 	height: 75px;
 	max-width: 100%; /* Images are jerks - Seattle*/
 }
+
+
+.grid-discover {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 50px;
+  
+}
+
+.grid-discover * {
+  padding: 10px;
+  margin: auto auto;
+  /* align-items: center; */
+}
+
+
+/* .images-discover {
+  display: flex;
+  flex-direction: column;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+} */
+/* 
+.images-discover img {
+  margin: 16px;
+  height: 108.400px;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}  */
+
+/* .headers-discover p {
+  margin: 55px 0;
+  width: auto;
+
+} */
+
+
+
+.headers-discover {
+  /* text-align: center; */
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center !important;
+}
+
+.grid-discover img {
+  display: block;
+}

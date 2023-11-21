@@ -25,4 +25,14 @@
     flex-direction: row;
     /* padding-right: 200px; */
   }
+
+  .grid-discover {
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+  }
+  .grid-discover img {
+    border-radius: 250px 450px;
+  } 
+  .grid-discover img:hover {
+    box-shadow: 0 0 50px #333;
+  }
 }

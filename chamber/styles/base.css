@@ -251,3 +251,16 @@ figcaption {
 .banner-remove {
   display: none;
 }
+
+.spotLightsArticle div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px;
+  border: 1px solid black;
+  /* width: 100%; */
+}
+
+.spotLightsArticle h2 {
+  margin: 0;
+}

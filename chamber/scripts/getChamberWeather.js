@@ -76,9 +76,9 @@ function displayForecast(data) {
   const day = new Date();
   const today = day.getDay();
 
-  let dayOne = `Max ${Math.max(...firstDay)} Min ${Math.min(...firstDay)}`;
-  let dayTwo = `Max ${Math.max(...secondDay)} Min ${Math.min(...secondDay)}`;
-  let dayThree = `Max ${Math.max(...thirdDay)} Min ${Math.min(...thirdDay)}`;
+  let dayOne = `Max: ${Math.max(...firstDay)} Min: ${Math.min(...firstDay)}`;
+  let dayTwo = `Max: ${Math.max(...secondDay)} Min: ${Math.min(...secondDay)}`;
+  let dayThree = `Max: ${Math.max(...thirdDay)} Min: ${Math.min(...thirdDay)}`;
 
   switch (today) {
     case 1:

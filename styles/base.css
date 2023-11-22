@@ -351,3 +351,17 @@ img {
 .grid-discover img {
   display: block;
 }
+
+.dark * {
+  background-color: black;
+
+  color:white;
+}
+
+#dark-mode {
+  grid-column: 1/3;
+  width: 20%;
+  margin-left: auto;
+  margin-right: 20px;
+}
+

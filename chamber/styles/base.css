@@ -218,3 +218,36 @@ footer h3 {
 form {
   margin-top: 30px;
 }
+
+
+#weather-icon {
+  width: 10%;
+  height: auto;
+}
+
+figure {
+  display: flex;
+  justify-content: center;
+
+  align-items: center;
+  margin: 0;
+  text-align: center;
+}
+
+figcaption {
+  margin-left: 5px;
+}
+
+
+.banner {
+  /* width: 100%;
+  height: 200px; Adjust this value based on your design preferences */
+  background-color: #3498db; /* Choose a color that complements your overall theme */
+  text-align: center;
+  color: #fff; /* Set the text color to ensure readability on the background */
+  padding: 20px; /* Add padding for spacing within the banner */
+}
+
+.banner-remove {
+  display: none;
+}

@@ -33,6 +33,11 @@
       <img id="linkedin" src="images/linkedin.webp" alt="linkedin" />
       <img id="instagram" src="images/instagram.webp" alt="instagram" />
     </header>
+    <div class="banner">
+      <button id="cancelBanner" type="button">❌</button>
+      <h1>We would like to invite you to attend the chamber of commerce meet and greet on Wednesdat at 7:00pm</h1>
+    
+  </div>
     <nav>
       <button id="menu"></button>
       <button id="join" type="button" style="text-decoration:none" onclick="window.location.href='/chamber/join.html';">
@@ -49,6 +54,7 @@
     </nav>
 
     <main>
+
       <img id="budapest_img" src="images/Budapest.webp" alt="Budapest" />
       <section class="card">
         <h3>Current Event(s)</h3>
@@ -60,12 +66,29 @@
         </p>
       </section>
 
+
       <section class="card">
+        <h3>Informtaion</h3>
+        <p>Budapest, Hungary</p>
+        <!-- <p> -->
+          <figure>
+            <img id="weather-icon" src="#" alt="weather-icon" />
+            <span id="current-temp"></span>
+
+            <figcaption></figcaption>
+          </figure>
+          <p id="firstDay"></p>
+          <p id="secondDay"></p>
+          <p id="thirdDay"></p>
+        <!-- </p> -->
+        <p>Page Visits: 15</p>
+      </section>
+      <!-- <section class="card">
         <h3>Informtaion</h3>
         <p>Budapest, Hungary</p>
         <p>50 &deg;C - Sunshine</p>
         <p>Page Visits: 15</p>
-      </section>
+      </section> -->
 
       <section class="card middle">
         <h3>Spotlights</h3>
@@ -77,6 +100,7 @@
       </section>
     </main>
     <footer>
+
       <section class="symbol">
         <h3>Thank you :)</h3>
         <img
@@ -98,7 +122,10 @@
         <p id="last-modified"></p>
       </section>
     </footer>
-    <script src="scripts/getDates.js"></script>
+    <script src="scripts/getChamberWeather.js"></script>
+    <script src="../scripts/getDates.js"></script>
     <script src="scripts/hamburger.js"></script>
+    <script src="scripts/cancelBanner.js"></script>
+    <script src="scripts/getSpotlights.js"></script>
   </body>
 </html>

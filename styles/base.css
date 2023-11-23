@@ -371,3 +371,9 @@ img {
   justify-content: center;
   margin-top: 45px;
 }
+
+
+#links a {
+  text-decoration: none;
+  margin-right:15px;
+}

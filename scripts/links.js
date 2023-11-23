@@ -18,7 +18,7 @@ async function getLinks() {
         list.textContent = 'Week ' + index + ' ';
         week.links.forEach((a) => {
           let temp = document.createElement('a');
-          temp.setAttribute('href', a.baseURL);
+          temp.setAttribute('href', a.url);
           temp.textContent = a.title + '      ';
           
           list.appendChild(temp);

@@ -19,7 +19,7 @@ async function getLinks() {
         week.links.forEach((a) => {
           let temp = document.createElement('a');
           temp.setAttribute('href', a.url);
-          temp.textContent = a.title + '  ';
+          temp.textContent = a.title + ' ';
           
           list.appendChild(temp);
         });

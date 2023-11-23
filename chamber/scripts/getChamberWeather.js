@@ -2,9 +2,9 @@ const currentTemp = document.querySelector("#current-temp");
 const weatherIcon = document.querySelector("#weather-icon");
 const captionDesc = document.querySelector("figcaption");
 
-const first = document.querySelector('#firstDay');
-const second = document.querySelector('#secondDay');
-const third = document.querySelector('#thirdDay');
+const first = document.querySelector("#firstDay");
+const second = document.querySelector("#secondDay");
+const third = document.querySelector("#thirdDay");
 
 const url =
   "https://api.openweathermap.org/data/2.5/weather?lat=47.4878173&lon=19.0316768&appid=e2a0ea60aba434d86831049a22c1e575";
@@ -87,37 +87,37 @@ function displayForecast(data) {
       dayThree = "Thursday " + dayThree;
       break;
     case 2:
-        dayOne = "Wednesday " + dayOne;
-        dayTwo = "Thursday " + dayTwo;
-        dayThree = "Friday " + dayThree;
+      dayOne = "Wednesday " + dayOne;
+      dayTwo = "Thursday " + dayTwo;
+      dayThree = "Friday " + dayThree;
       break;
     case 3:
-        dayOne = "Thursday " + dayOne;
-        dayTwo = "Friday " + dayTwo;
-        dayThree = "Saturday " + dayThree;
+      dayOne = "Thursday " + dayOne;
+      dayTwo = "Friday " + dayTwo;
+      dayThree = "Saturday " + dayThree;
       break;
     case 4:
-        dayOne = "Friday " + dayOne;
-        dayTwo = "Saturday " + dayTwo;
-        dayThree = "Sunday " + dayThree;
+      dayOne = "Friday " + dayOne;
+      dayTwo = "Saturday " + dayTwo;
+      dayThree = "Sunday " + dayThree;
       break;
     case 5:
-        dayOne = "Saturday " + dayOne;
-        dayTwo = "Sunday " + dayTwo;
-        dayThree = "Monday " + dayThree;
+      dayOne = "Saturday " + dayOne;
+      dayTwo = "Sunday " + dayTwo;
+      dayThree = "Monday " + dayThree;
       break;
     case 6:
-        dayOne = "Sunday " + dayOne;
-        dayTwo = "Monday " + dayTwo;
-        dayThree = "Tuesday " + dayThree;
+      dayOne = "Sunday " + dayOne;
+      dayTwo = "Monday " + dayTwo;
+      dayThree = "Tuesday " + dayThree;
       break;
     case 7:
-        dayOne = "Monday " + dayOne;
-        dayTwo = "Tuesday " + dayTwo;
-        dayThree = "Wednesday " + dayThree;
+      dayOne = "Monday " + dayOne;
+      dayTwo = "Tuesday " + dayTwo;
+      dayThree = "Wednesday " + dayThree;
       break;
     default:
-    // code block
+      break;
   }
 
   first.innerHTML = dayOne;

@@ -1,19 +1,33 @@
-const check_today = new Date();
-const this_day = check_today.getDay();
+// Check if localStorage is supported
+if (typeof(Storage) !== "undefined") {
+    // Get the last visit date from localStorage
+    const lastVisit = localStorage.getItem("lastVisit");
 
-switch (this_day) {
-  case 4:
-    document.querySelector(".banner").style.display = "none";
-    break;
-  case 5:
-    document.querySelector(".banner").style.display = "none";
-    break;
-  case 6:
-    document.querySelector(".banner").style.display = "none";
-    break;
-  case 7:
-    document.querySelector(".banner").style.display = "none";
-    break;
-  default:
-    break;
+    // Get the current date
+    const currentDate = new Date();
+
+    if (lastVisit) {
+        // Calculate the difference in milliseconds
+        const timeDifference = currentDate - new Date(lastVisit);
+
+        // Convert milliseconds to days
+        const daysDifference = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
+
+        const messageElement = document.querySelector('.welcome-message');
+        
+        if (daysDifference === 0) {
+            messageElement.textContent = "Back so soon! Awesome!";
+        } else {
+            const pluralize = daysDifference === 1 ? "" : "s";
+            messageElement.textContent = "You last visited " + daysDifference + " day" + pluralize + " ago.";
+        }
+    } else {
+        document.querySelector('.welcome-message').textContent = "Welcome! Let us know if you have any questions.";
+    }
+
+    // Store the current date in localStorage
+    localStorage.setItem("lastVisit", currentDate);
+} else {
+    // localStorage is not supported
+    document.querySelector('.welcome-message').textContent = "Sorry, your browser does not support localStorage.";
 }

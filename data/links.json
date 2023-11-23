@@ -20,7 +20,7 @@
         {
             "week": "Week 2",
             "links": [{
-                "url": "/week02/design.html",
+                "url": "week02/design.html",
                 "title": "Design Principles"
             },
             {
@@ -28,7 +28,7 @@
                 "title": "Responsive Hamburger Menu"
             },
             {
-                "url": "/week02/bom.html",
+                "url": "week02/bom.html",
                 "title": "DOM Manipulation"
             }
             ]
@@ -37,11 +37,11 @@
         {
             "week": "Week 3",
             "links": [{
-                "url": "/week03/images/landscape.webp",
+                "url": "week03/images/landscape.webp",
                 "title": "Webp"
             },
             {
-                "url": "/week03/lazyload.html",
+                "url": "week03/lazyload.html",
                 "title": "LazyLoad"
             },
             {
@@ -49,7 +49,7 @@
                 "title": "Responsive Images"
             },
             {
-                "url": "/week03/bom.html",
+                "url": "week03/bom.html",
                 "title": "Web Storage API -localstorage"
             }
             ]
@@ -79,15 +79,15 @@
                 "title": "Pseudo-Elements"
             },
             {
-                "url": "/week05/new-ward-members.json",
+                "url": "week05/new-ward-members.json",
                 "title": "Json"
             },
             {
-                "url": "/week05/prophets.html",
+                "url": "week05/prophets.html",
                 "title": "Fetch API"
             },
             {
-                "url": "/week05/weather.html",
+                "url": "week05/weather.html",
                 "title": "Weather API"
             }
             ]

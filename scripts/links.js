@@ -15,11 +15,11 @@ async function getLinks() {
         let list = document.createElement('li');
         
 
-        list.textContent = 'Week   ' + index + ':  ';
+        list.textContent = 'Week ' + index + ': ';
         week.links.forEach((a) => {
           let temp = document.createElement('a');
           temp.setAttribute('href', a.url);
-          temp.textContent = a.title + '      ';
+          temp.textContent = a.title + '  ';
           
           list.appendChild(temp);
         });

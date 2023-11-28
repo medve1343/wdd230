@@ -30,7 +30,7 @@ function displayBusinesses(data) {
     spotlight.splice(randnum,1);
   }
 
-  console.log(randomSpotLight);
+  // console.log(randomSpotLight);
 
   randomSpotLight.forEach((member) => {
     let onemember = member[0]; 
@@ -40,7 +40,7 @@ function displayBusinesses(data) {
     let url = document.createElement('a');
     let img = document.createElement('img');
 
-    console.log(onemember);
+    // console.log(onemember);
 
     h2.innerHTML = onemember.name;
     img.setAttribute("src", onemember.imageUrl);

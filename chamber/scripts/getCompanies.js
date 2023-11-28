@@ -9,7 +9,7 @@ async function getBusinesses() {
 
 function displayBusinesses(data) {
   data.forEach((element) => {
-    console.log(element);
+    // console.log(element);
     let name = document.createElement("h3");
     let street = document.createElement("p"); // fill in the blank
     let city = document.createElement("p");

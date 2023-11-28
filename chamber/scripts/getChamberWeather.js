@@ -123,9 +123,9 @@ function displayForecast(data) {
   first.innerHTML = dayOne;
   second.innerHTML = dayTwo;
   third.innerHTML = dayThree;
-  console.log(dayOne);
-  console.log(dayTwo);
-  console.log(dayThree);
+  // console.log(dayOne);
+  // console.log(dayTwo);
+  // console.log(dayThree);
 }
 
 function displayResults(data) {

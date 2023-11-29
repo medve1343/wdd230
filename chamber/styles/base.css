@@ -199,6 +199,11 @@ form input:focus {
 
 form * {
   display: block;
+  
+}
+
+form fieldset {
+  min-width: 75%;
 }
 
 form label,
@@ -206,6 +211,8 @@ fieldset,
 #submit {
   margin: 10px;
 }
+
+
 
 
 .MembershipLevel :nth-child(3) {
@@ -264,4 +271,11 @@ figcaption {
 
 .spotLightsArticle h2 {
   margin: 0;
+}
+
+#current_event {
+  
+  font-size:xx-large;
+  padding: 80px 0;
+
 }

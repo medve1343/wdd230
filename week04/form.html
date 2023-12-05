@@ -43,23 +43,26 @@
         <label for="username"
           >Username*<input type="text" id="username" name="username" required
         /></label>
-        <label for="password"
+        <label id="password" for="password"
           >Password*<input
-            type="text"
-            id="password"
+            type="password"
+            id="Password"
             name="password"
-            pattern="[A-Za-z0-9]{8}"
+            pattern="[A-Za-z0-9]{8,}"
+            placeholder="At least eight characters long."
             required
         /></label>
 
-        <label for="passwordConfirmation"
+        <label id="confirmPassword" for="passwordConfirmation"
           >Password Confirmation*
           <input
-            type="text"
+            type="password"
             id="passwordConfirmation"
             name="passwordConfirmation"
-            pattern="^.*(?=.*\password\b).*$"
-            required
+            
+            pattern="[A-Za-z0-9]{8,}"
+            required 
+            
         /></label>
 
         <label for="email">Email* <input
@@ -104,9 +107,8 @@
             <option value="9">9</option>
             <option value="10">10</option>
           </datalist>
-          <input type="submit" value="Submit" class="submitBtn" />
+          <input type="submit" onclick="checkPasswordMatch()" value="Submit" class="submitBtn" />
         </label>
-        
         
       </form>
     </main>
@@ -132,6 +134,7 @@
     </footer>
     <script src="scripts/form.js"></script>
     <script src="../chamber/scripts/hamburger.js"></script>
-    <script src="../chamber/scripts/getDates.js"></script>
+    <script src="../scripts/getDates.js"></script>
+    <script src="scripts/checkPassword.js"></script>
   </body>
 </html>

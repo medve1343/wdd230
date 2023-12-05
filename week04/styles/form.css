@@ -1,3 +1,9 @@
+:root {
+  --error-border: red solid 6px;
+  --success-border: green solid 6px;
+  --focus-background: yellow;
+}
+
 #rangevalues {
   display: flex;
 }
@@ -15,15 +21,15 @@ form * {
 }
 
 form input:required {
-  border-left: red solid 6px;
+  border-left: var(--error-border);
 }
 
 form input:required:valid {
-  border-left: green solid 6px;
+  border-left: var(--success-border);
 }
 
 form input:focus {
-  background-color: yellow;
+  background-color: var(--focus-background);
 }
 
 .submitBtn {

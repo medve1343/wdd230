@@ -1,134 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Contact Us Form" />
+    <meta charset="utf-8">
     <meta name="author" content="Gergo Medveczky" />
-    <link rel="stylesheet" href="chamber/styles/normalize.css" />
-    <link rel="stylesheet" href="chamber/styles/base.css" />
-    <link rel="stylesheet" href="chamber/styles/larger.css" />
-    <link rel="stylesheet" href="week04/styles/form.css" />
-    <title>Form Contact Us</title>
+    <meta name="description" content="WDD 230 - Web Frontend Development Gergo Medveczky course assignment portal" />
+    <!-- <meta
+      name="description"
+      content="WDD230 - Web Frontend Development Gergo Medveczky W01 Team Activity: Course Home Page Development."
+    /> -->
+    <meta property="og:type" content="website">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta property="og:title" content="Budapest Chamber of Commerce" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:image"
+      content="https://raw.githubusercontent.com/medve1343/wdd230/main/images/Budapest.jpg"
+    />
+    <meta property="og:url" content="https://medve1343.github.io/wdd230/" />
+
+    <link rel="icon" href="images/favicon.ico" />
+    
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/base.css" />
+    <link rel="stylesheet" href="styles/larger.css" />
+    <title>"Gergo Medveczky - WDD 230 - Web Frontend Development"</title>
   </head>
+
   <body>
     <header>
-      <p id="cityName">Budapest</p>
-      <img id="facebook" src="chamber/images/facebook.webp" alt="facebook" />
-      <img id="linkedin" src="chamber/images/linkedin.webp" alt="linkedin" />
-      <img
-        id="instagram"
-        src="chamber/images/instagram.webp"
-        alt="instagram"
-      />
+      <img id="motorcycle" src="images/me.webp" alt="me on a motorcycle" />
+      <h1>Gergo Medveczky</h1>
+      <button id="dark-mode">Dark Mode🕶️</button>
     </header>
+
     <nav>
       <button id="menu"></button>
-      <button id="join" type="button">Join</button>
+
       <ul class="navigation">
         <li><a href="index.html" title="Home">Home</a></li>
         <li>
-          <a href="chamber/index.html" title="Chamber" class="active"
-            >Chamber</a
+          <a href="contactme.html" title="Chamber" class="active"
+            >Contact me</a
           >
         </li>
         <li>
           <a href="week01/chamber-site-plan.html" title="Site Plan"
-            >Site Plan</a
+            >Download Resume</a
           >
         </li>
-        <li><a href="form.html" title="Form">Form</a></li>
+        <li><a href="form.html" title="Form">About Me</a></li>
       </ul>
     </nav>
-    <main id="form_main">
-      <form method="get" action="week04/confirmation.html">
-        <label for="username"
-          >Username*<input type="text" id="username" name="username" required
-        /></label>
-        <label id="password" for="password"
-          >Password*<input
-            type="password"
-            id="Password"
-            name="password"
-            pattern="[A-Za-z0-9]{8,}"
-            placeholder="At least eight characters long."
-            required
-        /></label>
 
-        <label id="confirmPassword" for="passwordConfirmation"
-          >Password Confirmation*
-          <input
-            type="password"
-            id="passwordConfirmation"
-            name="passwordConfirmation"
-            
-            pattern="[A-Za-z0-9]{8,}"
-            required 
-            
-        /></label>
+    <!-- <nav>
+      <a href="#">Home</a>
+      <a href="./chamber/index.html">Chamber</a>
+      <a href="./week01/chamber-site-plan.html">Site Plan</a>
+      <a href="#">Form</a>
+    </nav> -->
+    <main id="aboutme">
+      <div class="grid-item">
+        <img id="wedding" src="images/wedding.jpg" alt="Gergo & Ellie" />
+      </div>
+      <div class="grid-item">
 
-        <label for="email">Email* <input
-          type="email"
-          id="email"
-          name="email"
-          pattern="[a-zA-Z0-9._%+-]+@byui\.edu$"
-          title="Please enter a valid email address"
-          required
-        /></label>
-        
-        
-        <label for="r">Page Rating <div id="rangevalue">5</div>
-          <input
-            type="range"
-            id="r"
-            name="r"
-            min="0"
-            max="10"
-            value="5"
-            step="1"
-            list="rangevalues"
-          />
-          <datalist id="rangevalues">
-            <option value="0">0</option>
-            <option value="1">1</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-            <option value="4">4</option>
-            <option value="5">5</option>
-            <option value="6">6</option>
-            <option value="7">7</option>
-            <option value="8">8</option>
-            <option value="9">9</option>
-            <option value="10">10</option>
-          </datalist>
-          <input type="submit" onclick="checkPasswordMatch()" value="Contact Us" class="submitBtn" />
-        </label>
-        
-      </form>
+        <p>
+          Hello there! <br>
+          I was born and raised in Budapest, Hungary. 
+          I grew up with a deep passion for computers and rowing.
+          I still remember the first computer my family got from a friend 
+          because we could not afford one. My father had to work 7 days a week to provide for us. 
+          Screen time was a family time for my 4 brothers and I. We were always so excited to discover the secrets of computers 
+          which developed in me a life-long passion for software. <br>
+          I moved to Rexburg, Idaho to study Software-Engineering at BYU-Idaho and I have been falling in love with the nature and wild-life around here.
+          I like to spend time in the mountains in every season whether I am on a pair of skis or on feet. I also started attending country dances where I met 
+          the love of my life and we got married after 9 months of dating.
+        </p>
+      </div>
+      
+      
     </main>
     <footer>
-      <section class="symbol">
-        <img
-          id="hun_symbol"
-          src="week04/images/hun_symbol.webp"
-          alt="hungarian symbol"
-        />
-        <p>
-          <span id="copyright"></span>
-        </p>
-
-        <p>Gergo Medveczky</p>
-        <p>WDD-230</p>
-      </section>
-      <section class="contact">
-        <p>Phone</p>
-        <p>+1(208)405-3533</p>
-        <p id="last-modified"></p>
-      </section>
+      <p>
+        <span id="copyright"></span>
+      </p>
+      <p><span class="label">Number of Visits: </span><span class="visits"></span></p>
+      <p>Gergo Medveczky</p>
+      <p id="last-modified"></p>
     </footer>
-    <script src="week04/scripts/form.js"></script>
-    <script src="chamber/scripts/hamburger.js"></script>
     <script src="scripts/getDates.js"></script>
-    <script src="week04/scripts/checkPassword.js"></script>
+    <script src="scripts/links.js"></script>
+    <script src="scripts/weather.js"></script>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/darkMode.js"></script>
+    <script src="scripts/visitCount.js"></script>
+    <script src="scripts/download.js"></script>
   </body>
 </html>

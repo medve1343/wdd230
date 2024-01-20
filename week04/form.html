@@ -1,24 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Contact Us Form" />
-    <meta name="author" content="Gergo Medveczky" />
-    <link rel="stylesheet" href="chamber/styles/normalize.css" />
-    <link rel="stylesheet" href="chamber/styles/base.css" />
-    <link rel="stylesheet" href="chamber/styles/larger.css" />
-    <link rel="stylesheet" href="week04/styles/form.css" />
-    <title>Form Contact Us</title>
+    <link rel="stylesheet" href="../chamber/styles/normalize.css" />
+    <link rel="stylesheet" href="../chamber/styles/base.css" />
+    <link rel="stylesheet" href="../chamber/styles/larger.css" />
+    <link rel="stylesheet" href="styles/form.css" />
+    <title>Document</title>
   </head>
   <body>
     <header>
       <p id="cityName">Budapest</p>
-      <img id="facebook" src="chamber/images/facebook.webp" alt="facebook" />
-      <img id="linkedin" src="chamber/images/linkedin.webp" alt="linkedin" />
+      <img id="facebook" src="../chamber/images/facebook.webp" alt="facebook" />
+      <img id="linkedin" src="../chamber/images/linkedin.webp" alt="linkedin" />
       <img
         id="instagram"
-        src="chamber/images/instagram.webp"
+        src="../chamber/images/instagram.webp"
         alt="instagram"
       />
     </header>
@@ -26,22 +24,22 @@
       <button id="menu"></button>
       <button id="join" type="button">Join</button>
       <ul class="navigation">
-        <li><a href="index.html" title="Home">Home</a></li>
+        <li><a href="../index.html" title="Home">Home</a></li>
         <li>
-          <a href="chamber/index.html" title="Chamber" class="active"
+          <a href="../chamber/index.html" title="Chamber" class="active"
             >Chamber</a
           >
         </li>
         <li>
-          <a href="week01/chamber-site-plan.html" title="Site Plan"
+          <a href="../week01/chamber-site-plan.html" title="Site Plan"
             >Site Plan</a
           >
         </li>
-        <li><a href="form.html" title="Form">Form</a></li>
+        <li><a href="../week04/form.html" title="Form">Form</a></li>
       </ul>
     </nav>
     <main id="form_main">
-      <form method="get" action="week04/confirmation.html">
+      <form method="get" action="confirmation.html">
         <label for="username"
           >Username*<input type="text" id="username" name="username" required
         /></label>
@@ -76,8 +74,16 @@
           required
         /></label>
         
+        <label for="rate">Page Rating* <input
+          type="text"
+          id="rate"
+          name="rate"
+          
+          title="Please enter a valid email address"
+          required
+        /></label>
         
-        <label for="r">Page Rating <div id="rangevalue">5</div>
+        <label for="r">INPUT: range, min, max, datalist, required* <div id="rangevalue">5</div>
           <input
             type="range"
             id="r"
@@ -101,7 +107,7 @@
             <option value="9">9</option>
             <option value="10">10</option>
           </datalist>
-          <input type="submit" onclick="checkPasswordMatch()" value="Contact Us" class="submitBtn" />
+          <input type="submit" onclick="checkPasswordMatch()" value="Submit" class="submitBtn" />
         </label>
         
       </form>
@@ -110,7 +116,7 @@
       <section class="symbol">
         <img
           id="hun_symbol"
-          src="week04/images/hun_symbol.webp"
+          src="images/hun_symbol.webp"
           alt="hungarian symbol"
         />
         <p>
@@ -126,9 +132,9 @@
         <p id="last-modified"></p>
       </section>
     </footer>
-    <script src="week04/scripts/form.js"></script>
-    <script src="chamber/scripts/hamburger.js"></script>
-    <script src="scripts/getDates.js"></script>
-    <script src="week04/scripts/checkPassword.js"></script>
+    <script src="scripts/form.js"></script>
+    <script src="../chamber/scripts/hamburger.js"></script>
+    <script src="../scripts/getDates.js"></script>
+    <script src="scripts/checkPassword.js"></script>
   </body>
 </html>

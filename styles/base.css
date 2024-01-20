@@ -8,12 +8,6 @@ header {
   background-color: #32746d;
 }
 
-
-
-main div {
-  padding:15px;
-}
-
 #motorcycle {
   grid-column-start: 1;
   width: 50%;
@@ -71,7 +65,7 @@ body {
   background-color: #32746d;
   display: flex;
   justify-content: center;
-  /* padding: 10px 0; */
+  padding: 10px 0;
   color: white;
 }
 
@@ -202,14 +196,14 @@ nav {
 
 /* Directory */
 
-/* #directory {
+#directory {
 	margin: 0 auto;
 	padding: 0.5rem;
 	max-width: 700px;
 	background-color: #fff;
 	font-family: Roboto, Helvetica, sans-serif;
   display: block;
-} */
+}
 
 .menu {
 	margin: 1rem auto;
@@ -357,9 +351,9 @@ img {
   align-items: center !important;
 }
 
-/* .grid-discover img {
+.grid-discover img {
   display: block;
-} */
+}
 
 .dark * {
   background-color: black;
@@ -429,32 +423,6 @@ img {
 iframe {
   width: 100%;
   border: 0;
-}
-
-#contactme {
-  display: block;
-  /* align-content: center; */
-  
-}
-
-#aboutme {
-  display: block;
-}
-
-#row {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-}
-
-.grid-item {
-  margin: 0 auto;
-  text-align: center;
-}
-
-#wedding {
-  width: 300px;
-  height: auto;
-  margin: 0 auto;
 }
 
 /* main > * {

@@ -1,0 +1,52 @@
+:root {
+  --error-border: red solid 6px;
+  --success-border: green solid 6px;
+  --focus-background: yellow;
+}
+
+#rangevalues {
+  display: flex;
+}
+
+form * {
+  display: block;
+}
+
+/* main {
+  margin-top: 70px;
+} */
+
+#join {
+  display: none;
+}
+
+form input:required {
+  border-left: var(--error-border);
+}
+
+form input:required:valid {
+  border-left: var(--success-border);
+}
+
+form input:focus {
+  background-color: var(--focus-background);
+}
+
+.submitBtn {
+  margin-bottom: 15px;
+}
+
+footer img {
+  width: 15%;
+  height: auto;
+  margin: 0 auto;
+}
+
+footer .symbol {
+  display: block;
+  border-bottom: 1px solid #000;
+}
+
+footer .contact {
+  display: block;
+}

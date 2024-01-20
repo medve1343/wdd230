@@ -1,0 +1,50 @@
+/* html selectors */
+caption {
+  caption-side: bottom;
+  color: black;
+  padding: 0.5em;
+}
+
+table {
+  margin: 0 auto;
+}
+
+thead,
+table {
+  background-color: black;
+  color: white;
+  border: 1px solid lightgrey;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 1em;
+  text-align: center;
+}
+
+tbody {
+  background-color: white;
+  color: black;
+}
+
+tbody tr:nth-child(even) {
+  background-color: wheat;
+}
+
+/* table,
+th,
+td {
+  border: 1px solid lightgrey;
+  border-collapse: collapse;
+} */
+
+/* class selectors */
+.gray {
+  background-color: #333;
+}
+
+td {
+  border: 1px solid rgb(237, 237, 237);
+  border-collapse: collapse;
+}
